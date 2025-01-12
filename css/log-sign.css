@@ -1,0 +1,133 @@
+/* General body styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    /* background: linear-gradient(to right, #6A11CB, #2575FC); Color gradient */
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: #fff;
+    min-height: 100vh;
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-between;
+
+    /*  */
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100%;
+    padding: 20px;
+}
+
+/* Auth Card */
+.auth-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    padding: 30px 40px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Animation: Hover scaling */
+.auth-card:hover {
+    transform: scale(1.02);
+}
+
+/* Headings */
+.auth-card h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.auth-card p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Form input fields */
+.form-group {
+    margin-bottom: 20px;
+}
+
+input[type="email"], input[type="password"], input[type="text"] {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border 0.3s ease;
+}
+
+/* On focus */
+input:focus {
+    border-color: #6A11CB;
+    outline: none;
+}
+
+/* Buttons */
+.btn {
+    background: linear-gradient(to right, #6A11CB, #2575FC);
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: linear-gradient(to right, #2575FC, #6A11CB);
+}
+
+/* Links */
+a {
+    color: #6A11CB;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #2575FC;
+}
+
+/* Error Message Styling */
+.error {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .auth-card {
+        padding: 20px 30px;
+    }
+
+    .auth-card h2 {
+        font-size: 24px;
+    }
+
+    input[type="email"], input[type="password"], input[type="text"] {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 14px;
+    }
+}

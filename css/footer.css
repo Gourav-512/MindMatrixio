@@ -1,0 +1,62 @@
+/* Footer Section */
+footer {
+    background: linear-gradient(90deg, #16213e, #0f3460, #1a1a2e); /* Same as header gradient */
+    padding: 20px 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+footer .footer-container h4 {
+    font-size: 1.5rem;
+    color: #ff5722; /* Highlight color to match header */
+    margin-bottom: 10px;
+}
+
+footer .footer-container p,
+footer .footer-container a {
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    line-height: 1.6;
+    margin: 5px 0;
+}
+
+footer .footer-container a:hover {
+    color: #00d4ff; /* Hover effect */
+    text-decoration: underline;
+}
+
+footer .quick-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .quick-links ul li {
+    margin-bottom: 5px;
+}
+
+footer .quick-links ul li a {
+    color: white;
+}
+
+footer .quick-links ul li a:hover {
+    color: #00d4ff; /* Hover effect for links */
+}
+
+footer .footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #aaa;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 10px;
+}

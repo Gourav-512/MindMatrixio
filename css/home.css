@@ -1,0 +1,145 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #38a8c4, #1c1eb6);  /* Your theme colors */
+    color: #f1f1f1;  /* Ensures the text is visible */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    text-align: center;
+    padding: 0 20px;
+    background: #222;  /* Darker background for better contrast */
+    margin-top: 150px;  /* Increased margin to avoid overlap with header */
+}
+
+.hero-section .content {
+    max-width: 700px;
+}
+
+.hero-section h1 {
+    font-size: 3rem;
+    color: #fff;  /* White text for better visibility */
+    animation: fadeIn 2s ease-in-out;
+}
+
+.hero-section p {
+    font-size: 1.2rem;
+    margin-top: 50px;
+    color: #f1f1f1;  /* Light color for contrast */
+    animation: fadeIn 2s ease-in-out;
+}
+
+/* Info Section */
+.info-section {
+    text-align: center;
+    padding: 50px 20px;
+    background: #fff;
+    color: #333;
+}
+
+.info-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    animation: fadeIn 2s ease-in-out;
+    color: #222;  /* Dark text for headings */
+}
+
+.info-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #333;  /* Darker text for headings */
+}
+
+.card p {
+    font-size: 1rem;
+    color: #666;  /* Slightly darker gray for text */
+}
+
+/* Future Section */
+.future-section {
+    padding: 50px 20px;
+    text-align: center;
+    background: #222;  /* Dark background to contrast with white text */
+    color: #fff;
+}
+
+.future-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.future-section p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #f1f1f1;  /* Light color text for readability */
+}
+
+/* Footer Section */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .hero-section {
+        height: 60vh;
+    }
+
+    .info-cards {
+        grid-template-columns: 1fr;
+    }
+}

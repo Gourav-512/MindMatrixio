@@ -1,0 +1,32 @@
+/* Global body styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif; /* Clean and modern font */
+    background-color: #FBF6E9; /* Light beige background */
+    color: #001F3F; /* Dark navy for text */
+    line-height: 1.6;
+}
+
+/* Additional universal elements */
+a {
+    color: #3A6D8C; /* Link color */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #6A9AB0; /* Lighter shade on hover */
+    text-decoration: underline;
+}
+
+/* For headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #001F3F; /* Consistent heading color */
+    margin: 0;
+}
+
+/* Paragraph styling */
+p {
+    margin: 0 0 1em;
+    color: #001F3F;
+}

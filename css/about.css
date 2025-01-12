@@ -1,0 +1,147 @@
+/* About Us Page Specific Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(145deg, #001F3F, #3A6D8C);
+    color: #FBF6E9;
+}
+
+.about-section {
+    padding: 50px 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    margin: 20px;
+    animation: fadeIn 2s ease-in;
+}
+
+.about-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #FBF6E9;
+}
+
+.about-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    background: #FBF6E9;
+    color: #001F3F;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+
+.card img {
+    border-radius: 50%;
+    width: 200px;
+    height:200px;
+    margin-bottom: 15px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Testimonials Section */
+.testimonials {
+    text-align: center;
+    padding: 50px 20px;
+    background: #3A6D8C;
+    color: #FBF6E9;
+}
+
+.testimonial-carousel {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 20px 0;
+}
+
+.testimonial {
+    background: #FBF6E9;
+    color: #001F3F;
+    border-radius: 10px;
+    padding: 20px;
+    min-width: 250px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 1.5s ease-in;
+}
+
+.testimonial h4 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.submit-testimonial {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #001F3F;
+    color: #FBF6E9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.submit-testimonial:hover {
+    background: #3A6D8C;
+}
+
+/* Team Expansion Section */
+.team-expansion {
+    text-align: center;
+    padding: 50px 20px;
+    background: #001F3F;
+    color: #FBF6E9;
+}
+
+.team-expansion ul {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+}
+
+.team-expansion li {
+    margin: 10px 0;
+}
+
+.join-us {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #3A6D8C;
+    color: #FBF6E9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.join-us:hover {
+    background: #001F3F;
+}
