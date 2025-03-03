@@ -1,20 +1,16 @@
 <?php
-$host = 'localhost';
-$user = 'root';
-$pass = '';
-$db_name = 'mindmatrix_db';
+$cleardb_url = parse_url(getenv("MYSQL_URL"));
 
-$conn = new mysqli($host, $user, $pass, $db_name);
+$host = $cleardb_url["host"];
+$user = $cleardb_url["user"];
+$password = $cleardb_url["pass"];
+$database = substr($cleardb_url["path"], 1);
+
+$conn = new mysqli($host, $user, $password, $database);
 
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
+} else {
+    echo "Database Connected Successfully!";
 }
-
-
-function logAction($conn, $user_id, $action, $details = null)
-{
-    $stmt = $conn->prepare("INSERT INTO usage_logs (user_id, action, details) VALUES (?, ?, ?)");
-    $stmt->bind_param("iss", $user_id, $action, $details);
-    $stmt->execute();
-    $stmt->close();
-}
+?>
