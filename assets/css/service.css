@@ -1,0 +1,134 @@
+/* Services Page - Professional Design */
+
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0A192F; /* Deep navy background */
+    color: #CCD6F6; /* Light gray text */
+    line-height: 1.6;
+}
+
+/* Services Hero Section */
+.services-hero {
+    background: linear-gradient(145deg, #0A192F, #112240);
+    padding: 100px 20px;
+    text-align: center;
+    color: #CCD6F6;
+}
+
+.services-hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #64FFDA; /* Teal accent */
+}
+
+.services-hero p {
+    font-size: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #8892B0; /* Light gray text */
+}
+
+/* Services Grid Section */
+.services-grid {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.services-grid h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #64FFDA;
+}
+
+.service-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background: #112240; /* Dark navy card background */
+    color: #CCD6F6;
+    border-radius: 12px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(100, 255, 218, 0.3);
+}
+
+.service-icon {
+    font-size: 40px;
+    color: #64FFDA;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    font-size: 16px;
+    color: #8892B0;
+    margin-bottom: 20px;
+}
+
+.btn-service {
+    padding: 10px 20px;
+    background: #64FFDA;
+    color: #0A192F;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn-service:hover {
+    background: #52D1B2;
+    color: #0A192F;
+}
+
+/* Call to Action Section */
+.cta-section {
+    background: linear-gradient(145deg, #112240, #0A192F);
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.cta-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #64FFDA;
+}
+
+.cta-content p {
+    font-size: 18px;
+    color: #8892B0;
+    margin-bottom: 30px;
+}
+
+.btn-cta {
+    padding: 12px 24px;
+    background: #64FFDA;
+    color: #0A192F;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn-cta:hover {
+    background: #52D1B2;
+    color: #0A192F;
+}

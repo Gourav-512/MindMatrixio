@@ -1,0 +1,46 @@
+.admin-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background: #1e1e2d;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.admin-container h1 {
+    color: #ff4b5c;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #555;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background: #ff4b5c;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background: #ff4b5c;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background: #d7384e;
+}

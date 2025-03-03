@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1e1e2d, #2c2c3e);
+    color: white;
+    overflow: hidden;
+}
+
+/* Background Animation */
+.background-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.background-animation .circle {
+    position: absolute;
+    background: rgba(255, 75, 92, 0.1);
+    border-radius: 50%;
+    animation: float 10s infinite;
+}
+
+.background-animation .circle:nth-child(1) {
+    width: 300px;
+    height: 300px;
+    top: 10%;
+    left: 5%;
+    animation-duration: 8s;
+}
+
+.background-animation .circle:nth-child(2) {
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 70%;
+    animation-duration: 12s;
+}
+
+.background-animation .circle:nth-child(3) {
+    width: 150px;
+    height: 150px;
+    top: 80%;
+    left: 20%;
+    animation-duration: 10s;
+}
+
+@keyframes float {
+    0% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-20px) rotate(180deg); }
+    100% { transform: translateY(0) rotate(360deg); }
+}
+
+/* Dashboard Container */
+.dashboard-container {
+    position: relative;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    z-index: 1;
+}
+
+
+/* Navigation Cards */
+.nav-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.nav-cards .card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.nav-cards .card:hover {
+    transform: translateY(-10px);
+    background: rgba(255, 75, 92, 0.2);
+}
+
+.nav-cards .card i {
+    font-size: 2rem;
+    color: #ff4b5c;
+    margin-bottom: 10px;
+}
+
+.nav-cards .card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.nav-cards .card p {
+    font-size: 0.9rem;
+    color: #ddd;
+}
+
+/* Footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    font-size: 0.9rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}

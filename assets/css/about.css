@@ -1,0 +1,324 @@
+/* About Us Page - Professional Design */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0A192F; /* Deep navy background */
+    color: #CCD6F6; /* Light gray text */
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(145deg, #0A192F, #112240);
+    padding: 100px 20px;
+    text-align: center;
+    color: #CCD6F6;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #64FFDA; /* Teal accent */
+}
+
+.hero-content p {
+    font-size: 20px;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    color: #8892B0; /* Light gray text */
+}
+
+.btn-hero {
+    padding: 12px 24px;
+    background: #64FFDA;
+    color: #0A192F;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn-hero:hover {
+    background: #52D1B2;
+    color: #0A192F;
+}
+
+/* Mission Section */
+.mission-section {
+    padding: 80px 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    margin: 40px 20px;
+}
+
+.mission-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #64FFDA;
+}
+
+.mission-content p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #8892B0;
+}
+
+/* Team Section */
+.team-section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.team-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #64FFDA;
+}
+
+.team-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.team-card {
+    background: #112240;
+    color: #CCD6F6;
+    border-radius: 12px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(100, 255, 218, 0.3);
+}
+
+.team-card img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+    border: 4px solid #64FFDA;
+}
+
+.team-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.team-card .role {
+    font-size: 18px;
+    color: #64FFDA;
+    margin-bottom: 15px;
+}
+
+.team-card .bio {
+    font-size: 16px;
+    color: #8892B0;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links .social-icon {
+    color: #64FFDA;
+    margin: 0 10px;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-links .social-icon:hover {
+    color: #52D1B2;
+}
+
+/* Values Section */
+.values-section {
+    padding: 80px 20px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    margin: 40px 20px;
+}
+
+.values-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #64FFDA;
+}
+
+.values-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.value-card {
+    background: #112240;
+    color: #CCD6F6;
+    border-radius: 12px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.value-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(100, 255, 218, 0.3);
+}
+
+.value-card i {
+    font-size: 40px;
+    color: #64FFDA;
+    margin-bottom: 20px;
+}
+
+.value-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.value-card p {
+    font-size: 16px;
+    color: #8892B0;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.testimonials-section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #64FFDA;
+}
+
+.testimonial-carousel {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    background: #112240;
+    color: #CCD6F6;
+    border-radius: 12px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.testimonial:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(100, 255, 218, 0.3);
+}
+
+.testimonial p {
+    font-size: 16px;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+.testimonial h4 {
+    font-size: 18px;
+    color: #64FFDA;
+}
+
+.btn-testimonial {
+    margin-top: 40px;
+    padding: 12px 24px;
+    background: #64FFDA;
+    color: #0A192F;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn-testimonial:hover {
+    background: #52D1B2;
+    color: #0A192F;
+}
+
+/* Join Us Section */
+.join-us-section {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.join-us-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #64FFDA;
+}
+
+.join-us-section p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #8892B0;
+}
+
+.job-roles {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.job-role {
+    background: #112240;
+    color: #CCD6F6;
+    border-radius: 12px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.job-role:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(100, 255, 218, 0.3);
+}
+
+.job-role h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.job-role p {
+    font-size: 16px;
+    color: #8892B0;
+    margin-bottom: 20px;
+}
+
+.btn-apply {
+    padding: 10px 20px;
+    background: #64FFDA;
+    color: #0A192F;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn-apply:hover {
+    background: #52D1B2;
+    color: #0A192F;
+}

@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #131533;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.admin-logs-container {
+    width: 90%;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #FFD700;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+th {
+    background: #FF69B4;
+}
+
+tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+tr:hover {
+    background: rgba(255, 255, 255, 0.3);
+}

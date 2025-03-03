@@ -1,0 +1,134 @@
+/* Index Page - Professional Design */
+
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #0A192F; /* Deep navy background */
+    color: #CCD6F6; /* Light gray text */
+    line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(145deg, #0A192F, #112240);
+    padding: 100px 20px;
+    text-align: center;
+    color: #CCD6F6;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #64FFDA; /* Teal accent */
+}
+
+.hero-content p {
+    font-size: 20px;
+    max-width: 800px;
+    margin: 0 auto 30px;
+    color: #8892B0; /* Light gray text */
+}
+
+.btn-hero {
+    padding: 12px 24px;
+    background: #64FFDA;
+    color: #0A192F;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn-hero:hover {
+    background: #52D1B2;
+    color: #0A192F;
+}
+
+/* Features Section */
+.features {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #64FFDA;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    background: #112240; /* Dark navy card background */
+    color: #CCD6F6;
+    border-radius: 12px;
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(100, 255, 218, 0.3);
+}
+
+.feature-icon {
+    font-size: 40px;
+    color: #64FFDA;
+    margin-bottom: 20px;
+}
+
+.feature-card h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.feature-card p {
+    font-size: 16px;
+    color: #8892B0;
+    margin-bottom: 20px;
+}
+
+/* Call to Action Section */
+.cta-section {
+    background: linear-gradient(145deg, #112240, #0A192F);
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.cta-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #64FFDA;
+}
+
+.cta-content p {
+    font-size: 18px;
+    color: #8892B0;
+    margin-bottom: 30px;
+}
+
+.btn-cta {
+    padding: 12px 24px;
+    background: #64FFDA;
+    color: #0A192F;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn-cta:hover {
+    background: #52D1B2;
+    color: #0A192F;
+}
