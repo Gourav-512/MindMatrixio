@@ -28,7 +28,7 @@ MindMatrix.io is a freemium SaaS platform that brings together a suite of powerf
 - **Frontend:** CSS, JavaScript
 - **Backend:** PHP, Hack, Python
 - **APIs:** Integrates with free/public AI APIs (such as [OpenAI](https://openai.com/), [Hugging Face](https://huggingface.co/), etc.)
-- **Hosting:** (Add your hosting provider here)
+- **Hosting:** 
 
 ---
 
