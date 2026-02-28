@@ -52,7 +52,7 @@ MindMatrix.io is a freemium SaaS platform that brings together a suite of powerf
    - Serve frontend files or run locally as described in your setup.
 
 5. **Access the Platform**
-   - Open your browser and go to `http://localhost:XXXX` (update with actual port).
+   - Open your browser and go to `https://php-7eae6.wasmer.app/index.php`.
 
 ---
 
@@ -90,3 +90,10 @@ This project is licensed under the [MIT License](LICENSE).
 
 - Remember to keep your API keys secure.
 - This project is for educational and productivity use; always credit third-party APIs as required.
+
+
+<img width="1905" height="905" alt="image" src="https://github.com/user-attachments/assets/3684c324-a92f-4fa2-9747-d7d65ad68cb8" />
+<img width="1913" height="902" alt="image" src="https://github.com/user-attachments/assets/a1622f99-c1aa-45d3-9273-818d5737b16b" />
+<img width="1908" height="916" alt="image" src="https://github.com/user-attachments/assets/8f21599e-2fd1-4021-86ea-1d84ceff9638" />
+<img width="1915" height="912" alt="image" src="https://github.com/user-attachments/assets/76192d0d-259a-498b-9d57-fbc49bf8e929" />
+<img width="1907" height="907" alt="image" src="https://github.com/user-attachments/assets/108ce938-4b20-46e6-b6a4-b5725ac0c3ca" />
