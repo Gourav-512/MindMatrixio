@@ -5,7 +5,8 @@ from chatterbot.trainers import ChatterBotCorpusTrainer
 # Initialize Flask app
 app = Flask(__name__)
 
-# Create and train the chatbot
+# Create and train the chatbot \
+
 chatbot = ChatBot(
     'MindMatrixBot',
     storage_adapter='chatterbot.storage.SQLStorageAdapter',
@@ -18,7 +19,7 @@ chatbot = ChatBot(
 
 trainer = ChatterBotCorpusTrainer(chatbot)
 trainer.train('chatterbot.corpus.english')
-
+# Post request to /chat py
 @app.route('/chat', methods=['POST'])
 def chat():
     user_message = request.json['message']
