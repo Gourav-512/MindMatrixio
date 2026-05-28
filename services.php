@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="assets/css/service.css">
 <link rel="stylesheet" type="text/css" href="assets/css/header.css">
 
-<!-- Services Hero Section -->
+<!-- Services Hero Section with css  -->
 <section class="services-hero">
     <div class="hero-content">
         <h1>Our AI-Powered Services</h1>
@@ -11,7 +11,7 @@
     </div>
 </section>
 
-<!-- Services Grid Section -->
+<!-- Services Grid Section  cards that Show AI tools-->
 <section class="services-grid">
     <div class="container">
         <h2>Featured Services</h2>
