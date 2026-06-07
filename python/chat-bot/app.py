@@ -18,6 +18,7 @@ def chat():
     if not user_input:
         return jsonify({'error': 'Message is required'}), 400
 
+    
     try:
         response = openai.Completion.create(
             engine="text-davinci-003",
