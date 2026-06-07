@@ -25,6 +25,7 @@ def chat():
             prompt=user_input,
             max_tokens=150
         )
+        
         reply = response.choices[0].text.strip()
         return jsonify({'response': reply})
     except Exception as e:
