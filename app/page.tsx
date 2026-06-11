@@ -15,6 +15,7 @@ export default function Home() {
     { id: 'code', name: 'Code Assistant', icon: Code, desc: 'Generate & explain code' },
   ];
 
+  
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!message.trim()) return;
