@@ -27,6 +27,7 @@ $result = $conn->query($query);
 </head>
 <body>
 
+    
     <div class="admin-logs-container">
         <h1>System Activity Logs</h1>
         <table>
