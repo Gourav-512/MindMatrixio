@@ -43,6 +43,7 @@ body {
     text-align: center;
     color: #CCD6F6;
 }
+        
 
 .hero-content h1 {
     font-size: 48px;
