@@ -110,6 +110,7 @@ export default function Home() {
             </button>
           </form>
 
+          
           {response && (
             <div className="mt-10 p-8 bg-black/50 border border-gray-800 rounded-3xl">
               <h4 className="font-medium text-purple-400 mb-4">AI Response:</h4>
