@@ -34,6 +34,7 @@ export default function Home() {
     setLoading(false);
   };
 
+  
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-950 via-black to-gray-950">
       {/* Navbar */}
