@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { Send, Sparkles, Code, FileText, Bot } from 'lucide-react';
 
+
 export default function Home() {
   const [activeTool, setActiveTool] = useState('chat');
   const [message, setMessage] = useState('');
