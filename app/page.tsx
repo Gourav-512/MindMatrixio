@@ -9,7 +9,7 @@ export default function Home() {
   const [response, setResponse] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const tools = [
+  const tools = [ 
     { id: 'chat', name: 'AI Chat', icon: Bot, desc: 'Talk to powerful LLMs' },
     { id: 'summarize', name: 'Summarizer', icon: FileText, desc: 'Summarize long text' },
     { id: 'code', name: 'Code Assistant', icon: Code, desc: 'Generate & explain code' },
