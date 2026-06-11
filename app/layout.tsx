@@ -3,7 +3,7 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'MindMatrixio - AI Tools Platform',
-  description: 'Your all-in-one AI toolkit for productivity and creativity',
+  description: 'Your all-in-one AI toolkit for productivity and creativity All in One Platform',
   icons: {
     icon: '/favicon.ico',
   },
