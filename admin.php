@@ -10,7 +10,6 @@ if ($_SESSION['role'] !== 'admin') {
     exit();
 }
 
-
 // Fetch all users
 
 $users = $conn->query("SELECT id, name, email, role, created_at FROM users");
