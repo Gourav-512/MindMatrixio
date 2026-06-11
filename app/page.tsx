@@ -50,6 +50,7 @@ export default function Home() {
           </div>
         </div>
       </nav>
+      
 
       <div className="max-w-7xl mx-auto px-6 py-12">
         <div className="text-center mb-16">
