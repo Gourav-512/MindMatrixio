@@ -44,7 +44,6 @@ body {
     color: #CCD6F6;
 }
         
-
 .hero-content h1 {
     font-size: 48px;
     margin-bottom: 20px;
