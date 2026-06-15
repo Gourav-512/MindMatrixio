@@ -26,7 +26,6 @@ include 'db.php';
     <style>
         /* Index Page - Professional Design */
 
-        
 /* Global Styles */
 body {
     margin: 0;
