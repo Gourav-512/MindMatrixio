@@ -17,7 +17,6 @@
             <p>Have questions or feedback? We'd love to hear from you! 😊</p>
         </div>
     </section>
-
     <!-- Contact Form Section -->
     <section class="contact-form">
         <div class="container">
@@ -33,7 +32,6 @@
                         <input type="email" id="email" name="email" required>
                     </div>
                     
-
                     <div class="form-group">
                         <label for="subject">Subject:</label>
                         <input type="text" id="subject" name="subject" required>
