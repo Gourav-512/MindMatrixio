@@ -25,7 +25,6 @@ include 'db.php';
 
     <style>
         /* Index Page - Professional Design */
-
         
 /* Global Styles */
 body {
@@ -37,6 +36,7 @@ body {
     line-height: 1.6;
 }
 
+        
 /* Hero Section */
 .hero {
     background: linear-gradient(145deg, #0A192F, #112240);
