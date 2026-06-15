@@ -130,8 +130,7 @@ body {
     padding: 80px 20px;
     text-align: center;
 }
-
-        
+   
 .cta-content h2 {
     font-size: 36px;
     margin-bottom: 20px;
