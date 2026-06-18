@@ -13,6 +13,7 @@ if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'admin') {
 $query = "SELECT usage_logs.id, users.name, usage_logs.action, usage_logs.details, usage_logs.log_time 
           FROM usage_logs 
           JOIN users ON usage_logs.user_id = users.id 
+          
           ORDER BY usage_logs.log_time DESC";
 $result = $conn->query($query);
 ?>
