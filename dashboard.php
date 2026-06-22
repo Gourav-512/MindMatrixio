@@ -28,7 +28,6 @@ $user = $result->fetch_assoc();
     <!-- Dashboard Content -->
     <div class="dashboard-container">
         <h1>Welcome, <?php echo $user['name']; ?>! 👋</h1>
-
         <!-- Cartoon Greeting -->
         <div class="cartoon-greeting">
 
@@ -66,5 +65,4 @@ $user = $result->fetch_assoc();
         <p>Made with ❤️ by MindMatrix.io | © 2023</p>
     </footer>
 </body>
-
 </html>
