@@ -8,7 +8,6 @@ $result = $conn->query($query);
 $user = $result->fetch_assoc();
 ?>
 
-
 <!DOCTYPE html>
 
 <html lang="en">
