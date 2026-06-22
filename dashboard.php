@@ -1,7 +1,6 @@
 <?php
 include 'auth.php';
 include 'db.php';
-
 $user_id = $_SESSION['user_id'];
 $query = "SELECT name FROM users WHERE id='$user_id'";
 $result = $conn->query($query);
