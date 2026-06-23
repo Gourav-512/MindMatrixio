@@ -3,6 +3,7 @@
 include 'db.php';
 include 'includes/header.php';
 
+
 // Check if the user is an admin
 if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'admin') {
     echo "<h1>Access Denied!</h1>";
