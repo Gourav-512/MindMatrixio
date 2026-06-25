@@ -29,8 +29,7 @@ $user = $result->fetch_assoc();
         <h1>Welcome, <?php echo $user['name']; ?>! 👋</h1>
         <!-- Cartoon Greeting -->
         <div class="cartoon-greeting">
-
-            
+ 
             <p>✨ "Every great idea starts with a small step. Let's explore AI together!" ✨</p>
         </div>
 
