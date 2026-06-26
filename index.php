@@ -35,7 +35,6 @@ body {
     color: #CCD6F6; /* Light gray text */
     line-height: 1.6;
 }
-        
 /* Hero Section */
 .hero {
     background: linear-gradient(145deg, #0A192F, #112240);
