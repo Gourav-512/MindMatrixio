@@ -116,7 +116,7 @@ body {
     font-size: 24px;
     margin-bottom: 15px;
 }
-
+        
 .feature-card p {
     font-size: 16px;
     color: #8892B0;
