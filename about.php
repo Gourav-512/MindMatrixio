@@ -3,7 +3,6 @@
 <link rel="stylesheet" href="assets/css/about.css">
 <link rel="stylesheet" type="text/css" href="assets/css/header.css">
 
-
 <!-- Hero Section -->
 <section class="hero-section">
     <div class="hero-content">
