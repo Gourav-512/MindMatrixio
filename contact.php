@@ -17,7 +17,6 @@
             <p>Have questions or feedback? We'd love to hear from you! 😊</p>
         </div>
     </section>
-    
     <!-- Contact Form Section -->
     <section class="contact-form">
         <div class="container">
