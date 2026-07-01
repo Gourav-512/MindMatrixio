@@ -3,7 +3,6 @@ from dotenv import load_dotenv
 import openai
 import os
 
-
 # Load API Key from .env file
 load_dotenv()
 # openai.api_key = os.getenv("OPENAI_API_KEY/ Openrouter API")
