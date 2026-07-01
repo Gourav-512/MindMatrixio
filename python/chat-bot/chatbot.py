@@ -3,7 +3,7 @@ from chatterbot import ChatBot
 from chatterbot.trainers import ChatterBotCorpusTrainer
 
 # Initialize Flask app
-app = Flask(__name__)
+app = Flask(__name_)
 # Create and train the chatbot \
 
 chatbot = ChatBot(
