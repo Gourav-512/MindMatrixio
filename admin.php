@@ -6,9 +6,7 @@ include 'db.php';
 // Ensure only admins can access
 if ($_SESSION['role'] !== 'admin') {
     echo "<h1>Access Denied!</h1>";
-    exit();
-}
-
+    exit();}
 // Fetch all users
 
 $users = $conn->query("SELECT id, name, email, role, created_at FROM users");
