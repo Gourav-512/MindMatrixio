@@ -15,7 +15,6 @@ if ($_SESSION['role'] !== 'admin') {
 $users = $conn->query("SELECT id, name, email, role, created_at FROM users");
 ?>
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
