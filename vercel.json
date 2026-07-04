@@ -1,0 +1,9 @@
+{
+  "buildCommand": "next build",
+  "devCommand": "next dev",
+  "installCommand": "npm install",
+  "env": {
+    "NEXT_PUBLIC_OPENROUTER_API_KEY": "@openrouter_api_key"
+  },
+  "envPrefix": "NEXT_PUBLIC_"
+}
