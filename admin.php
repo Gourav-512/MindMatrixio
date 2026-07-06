@@ -19,7 +19,6 @@ $users = $conn->query("SELECT id, name, email, role, created_at FROM users");
     <link rel="stylesheet" href="assets/css/admin.css">
 </head>
 <body>
-
     <div class="admin-container">
         <h1>Admin Panel</h1>
         <p>Manage Users & System Logs</p>
