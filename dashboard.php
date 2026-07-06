@@ -6,7 +6,6 @@ $query = "SELECT name FROM users WHERE id='$user_id'";
 $result = $conn->query($query);
 $user = $result->fetch_assoc();
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
