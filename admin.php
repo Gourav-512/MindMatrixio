@@ -7,7 +7,6 @@ include 'db.php';
 if ($_SESSION['role'] !== 'admin') {
     echo "<h1>Access Denied!</h1>";
     exit();
-
 }
 // Fetch all users
 
