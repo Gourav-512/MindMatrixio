@@ -21,7 +21,6 @@ $user = $result->fetch_assoc();
         <div class="circle"></div>
         <div class="circle"></div>
     </div>
-
     <!-- Dashboard Content -->
     <div class="dashboard-container">
         <h1>Welcome, <?php echo $user['name']; ?>! 👋</h1>
