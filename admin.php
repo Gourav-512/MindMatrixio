@@ -1,7 +1,7 @@
 <?php
 include 'auth.php';
 include 'db.php';
-//admin@mindmatrix.io pass:- admin123
+//admin@mindmatrix.io pass:- admin123 use This Password 
 // Ensure only admins can access
 if ($_SESSION['role'] !== 'admin') {
     echo "<h1>Access Denied!</h1>";
