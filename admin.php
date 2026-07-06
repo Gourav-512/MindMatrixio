@@ -49,7 +49,6 @@ $users = $conn->query("SELECT id, name, email, role, created_at FROM users");
             <?php } ?>
         </table>
         <br>
-       
         <a href="logout.php">🚪 Logout</a>
     </div>
 </body>
