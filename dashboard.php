@@ -15,7 +15,6 @@ $user = $result->fetch_assoc();
     <title>User Dashboard</title>
     <link rel="stylesheet" href="assets/css/dashboard.css">
 </head>
-
 <body>
     <!-- Background Animation -->
     <div class="background-animation">
