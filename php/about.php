@@ -2,7 +2,6 @@
 
 <!-- About Us Section -->
 <link rel="stylesheet" href="../css/about.css">
-
 <!-- About Us Section -->
 <div class="about-section">
     <h1>About Us</h1>
