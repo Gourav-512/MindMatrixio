@@ -1,8 +1,10 @@
 <?php include('header.php'); ?>
 
 <!-- About Us Section -->
+
 <link rel="stylesheet" href="../css/about.css">
 <!-- About Us Section -->
+
 <div class="about-section">
     <h1>About Us</h1>
     <p>Welcome to MindMatrix.io, where innovation meets creativity. We are a passionate team of two visionaries driven by a shared love for AI and technology.</p>
