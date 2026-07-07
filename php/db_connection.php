@@ -3,10 +3,11 @@ $servername = "localhost";
 $username = "root";
 $password = "";
 $dbname = "mindmatrix"; // Replace with your database name
-// Create connection
+// Create connection .check same Name as Your Localhost
+
 $conn = new mysqli($servername, $username, $password, $dbname);
 
-// Check connection
+// C.heck connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
