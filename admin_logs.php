@@ -45,6 +45,5 @@ $result = $conn->query($query);
             <?php } ?>
         </table>
     </div>
-
 </body>
 </html>
