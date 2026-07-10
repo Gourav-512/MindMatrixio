@@ -25,6 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
+    
 <form method="POST">
      <link rel="stylesheet" href="assets/css/inandout.css">
     <input type="text" name="name" placeholder="Full Name" required><br>
