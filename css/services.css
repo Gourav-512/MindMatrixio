@@ -6,13 +6,11 @@ body {
     background: linear-gradient(to bottom, #6a11cb, #2575fc);
     color: #fff;
     margin-top: 150px;
-
 }
 
 .container {
     padding: 40px 20px;
     text-align: center;
-
 }
 
 h1, h2 {
