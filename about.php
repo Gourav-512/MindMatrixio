@@ -1,5 +1,4 @@
 <?php include 'includes/header.php'; ?>
-
 <link rel="stylesheet" href="assets/css/about.css">
 <link rel="stylesheet" type="text/css" href="assets/css/header.css">
 
