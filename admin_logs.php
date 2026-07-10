@@ -15,7 +15,6 @@ $query = "SELECT usage_logs.id, users.name, usage_logs.action, usage_logs.detail
           ORDER BY usage_logs.log_time DESC";
 $result = $conn->query($query);
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
