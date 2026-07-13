@@ -14,6 +14,7 @@ if (isset($_GET['id'])) {
     $checkUser = $conn->query("SELECT role FROM users WHERE id='$user_id'");
     $user = $checkUser->fetch_assoc();
     
+    
     if ($user['role'] === 'admin') {
         echo "You cannot delete an admin!";
         exit();
