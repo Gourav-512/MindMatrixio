@@ -5,3 +5,4 @@ header("Location: login.php");
 logAction($conn, $_SESSION['user_id'], "User Logged Out");
 exit();
 ?>
+
