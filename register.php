@@ -7,6 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = md5($_POST["password"]); // Encrypt password
     $role = "user"; // Default role
 
+    
     // Check if user already exists
     $checkUser = "SELECT * FROM users WHERE email='$email'";
     $result = $conn->query($checkUser);
