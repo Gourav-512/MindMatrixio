@@ -37,3 +37,39 @@ git clone https://github.com/Gourav-512/MindMatrixio.git
 cd MindMatrixio
 npm install
 cp .env.example .env.local
+# Add your API keys in .env.local
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## 📁 Project Structure
+
+```
+MindMatrixio/
+├── app/                 # Next.js App Router
+├── assets/              # Static assets
+├── css/                 # Styles
+├── js/                  # Frontend scripts
+├── php/                 # PHP backend helpers
+├── python/              # Python AI utilities
+├── includes/            # Shared includes
+├── index.php            # Main entry (PHP side)
+├── package.json         # Next.js dependencies
+└── README.md
+```
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Next.js 14, TypeScript, Tailwind CSS
+- **Backend**: PHP + Python
+- **AI**: OpenRouter, Grok (xAI), and other LLMs
+- **UI**: Dark Glassmorphism design
+
+## 📄 License
+
+Apache License 2.0
+
+---
+
+Built with ❤️ by [Gourav Salunkhe](https://github.com/Gourav-512) | [WINIKS.co](https://winiks-co.vercel.app/)
