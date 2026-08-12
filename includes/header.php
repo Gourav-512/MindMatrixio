@@ -57,6 +57,7 @@ header {
     animation: floatLogo 3s ease-in-out infinite;
 }
 
+    
 .logo a {
     font-size: 1.8rem;
     font-weight: bold;
