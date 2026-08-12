@@ -196,6 +196,7 @@ header {
             <li><a href="services.php">Services</a></li>
             <li><a href="contact.php">Contact Us</a></li>
         </ul>
+        
         <div class="auth-buttons">
             <?php if(isset($_SESSION['user_id'])): ?>
                 <a href="logout.php" class="btn logout">Logout</a>
