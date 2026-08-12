@@ -11,7 +11,6 @@ session_start();
     <script src="assets/js/script.js" defer></script>
 
     <link rel="stylesheet" href="../assets/css/header.css">
-
 <style>
         /* Global Styles */
 /* Global Styles */
