@@ -2,7 +2,7 @@
 session_start();
 session_destroy();
 header("Location: login.php");
-logAction($conn, $_SESSION['user_id'], "User Logged Out");
+logAction($conn, $_SESSION['user_id'], "Logged Out");
 exit();
 ?>
 
