@@ -5,6 +5,5 @@
         <p>&copy; <?php echo date('Y'); ?> MindMatrix.io - All Rights Reserved.</p>
     </div>
 </footer>
-
 </body>
 </html>
