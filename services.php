@@ -2,7 +2,6 @@
 
 <link rel="stylesheet" href="assets/css/service.css">
 <link rel="stylesheet" type="text/css" href="assets/css/header.css">
-
 <!-- Services Hero Section with css  -->
 <section class="services-hero">
     <div class="hero-content">
