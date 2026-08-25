@@ -25,6 +25,7 @@ $result = $conn->query($query);
     <link rel="stylesheet" href="assets/css/admin_logs.css">
 </head>
 <body>
+    
     <div class="admin-logs-container">
         <h1>System Activity Logs</h1>
         <table>
