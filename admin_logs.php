@@ -8,7 +8,6 @@ if (!isset($_SESSION['user_id']) || $_SESSION['role'] !== 'admin') {
     echo "<h1>Access Denied!</h1>";
     exit();
 }
-
 // Fetch logs from the database
 $query = "SELECT usage_logs.id, users.name, usage_logs.action, usage_logs.details, usage_logs.log_time 
           FROM usage_logs 
