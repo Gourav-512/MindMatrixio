@@ -8,6 +8,7 @@ load_dotenv()
 # openai.api_key = os.getenv("OPENAI_API_KEY/ Openrouter API")
 print(os.getenv("OPENAI_API_KEY"))  # Add this to your Flask app to debug
 
+
 # Initialize Flask app
 app = Flask(__name__)
 
