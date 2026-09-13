@@ -8,6 +8,7 @@ app = Flask(__name__)
 
 chatbot = ChatBot(
     'MindMatrixBot',
+    
     storage_adapter='chatterbot.storage.SQLStorageAdapter',
     database_uri='sqlite:///mindmatrixbot.db',
     logic_adapters=[
