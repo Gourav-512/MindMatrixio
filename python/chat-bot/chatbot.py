@@ -16,6 +16,7 @@ chatbot = ChatBot(
         'chatterbot.logic.MathematicalEvaluation'
     ]
 )
+
 trainer = ChatterBotCorpusTrainer(chatbot)
 trainer.train('chatterbot.corpus.english')
 # Post request to /chat py
