@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = htmlspecialchars($_POST['email']);
     $subject = htmlspecialchars($_POST['subject']);
     $message = htmlspecialchars($_POST['message']);
-
+    
     // Insert data into the feedback table
     $sql = "INSERT INTO feedback (name, email, subject, message) VALUES (?, ?, ?, ?)";
     $stmt = $conn->prepare($sql);
