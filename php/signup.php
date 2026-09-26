@@ -6,13 +6,21 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST['email'];
     $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
 
-    $sql = "INSERT INTO users (name, email, password) VALUES ('$name', '$email', '$password')";
+    $stmt = $conn->prepare("INSERT INTO users (name, email, password) VALUES (?, ?, ?)");
+    if ($stmt) {
+        $stmt->bind_param("sss", $name, $email, $password);
 
-    if ($conn->query($sql) === TRUE) {
-        header("Location: login.php");
-        exit();
+        if ($stmt->execute()) {
+            $stmt->close();
+            $conn->close();
+            header("Location: login.php");
+            exit();
+        } else {
+            $error = "Error: " . $stmt->error;
+            $stmt->close();
+        }
     } else {
-        $error = "Error: " . $sql . "<br>" . $conn->error;
+        $error = "Error preparing statement: " . $conn->error;
     }
 
     $conn->close();
