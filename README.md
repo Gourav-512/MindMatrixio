@@ -37,3 +37,16 @@ git clone https://github.com/Gourav-512/MindMatrixio.git
 cd MindMatrixio
 npm install
 cp .env.example .env.local
+# add your API keys
+npm run dev
+```
+
+Open [http://localhost:3000](http://localhost:3000)
+
+## Tech
+
+Next.js 14 · TypeScript · Tailwind · OpenRouter / Grok
+
+---
+
+Built under **WINIKS**
