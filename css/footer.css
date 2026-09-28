@@ -1,7 +1,7 @@
 /* Footer Section */
 footer {
     background: linear-gradient(90deg, #16213e, #0f3460, #1a1a2e); /* Same as header gradient */
-    padding: 20px 0;
+    padding: 21px 0;
     color: white;
     font-family: 'Poppins', sans-serif;
 }
